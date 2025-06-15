@@ -1,0 +1,50 @@
+{
+  "Beras Medium": {
+    "LSTM": {
+      "MAPE": 5.32,
+      "Accuracy": 94.68,
+      "MSE": 699132.59,
+      "RMSE": 836.14,
+      "MAE": 711.62
+    },
+    "LSTM-GRU": {
+      "MAPE": 6.14,
+      "Accuracy": 93.86,
+      "MSE": 845686.43,
+      "RMSE": 919.61,
+      "MAE": 821.30
+    }
+  },
+  "Bawang Merah": {
+    "LSTM": {
+      "MAPE": 8.25,
+      "Accuracy": 91.75,
+      "MSE": 13180456.18,
+      "RMSE": 3630.49,
+      "MAE": 3051.29
+    },
+    "LSTM-GRU": {
+      "MAPE": 6.03,
+      "Accuracy": 93.97,
+      "MSE": 7779318.37,
+      "RMSE": 2789.14,
+      "MAE": 2194.21
+    }
+  },
+  "Cabai Merah Keriting": {
+    "LSTM": {
+      "MAPE": 20.96,
+      "Accuracy": 79.04,
+      "MSE": 54383489.38,
+      "RMSE": 7374.52,
+      "MAE": 6606.18
+    },
+    "LSTM-GRU": {
+      "MAPE": 15.97,
+      "Accuracy": 84.03,
+      "MSE": 32370970.83,
+      "RMSE": 5689.55,
+      "MAE": 5183.54
+    }
+  }
+}
