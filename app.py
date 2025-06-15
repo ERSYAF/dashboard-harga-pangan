@@ -22,8 +22,8 @@ def load_metrics():
 @st.cache_resource
 def load_models():
     return (
-        load_model("models/model_lstm_komoditas.h5", compile=False),
-        load_model("models/model_GRU_komoditas.h5", compile=False)
+        load_model("models/model_lstm_komoditas.keras", compile=False),
+        load_model("models/model_GRU_komoditas.keras", compile=False)
     )
 
 # Sidebar
