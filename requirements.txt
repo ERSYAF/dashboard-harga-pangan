@@ -2,5 +2,5 @@ streamlit
 pandas
 numpy
 matplotlib
-tensorflow
 scikit-learn
+tensorflow==2.12.0
